@@ -1,0 +1,4 @@
+30 is Bad
+6 is Bad
+18 is Bad
+96 is Excellent
