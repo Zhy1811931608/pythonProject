@@ -1,4 +1,4 @@
-30 is Bad
-6 is Bad
-18 is Bad
-96 is Excellent
+80 is Possibal
+72 is Possibal
+60 is Possibal
+12 is Bad
