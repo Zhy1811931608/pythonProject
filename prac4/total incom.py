@@ -8,12 +8,13 @@ def main():
     """Display income report for incomes over a given number of months."""
     incomes = []
     number_of_months = int(input("How many months? "))
-
     for month in range(1, number_of_months + 1):
         income = float(input("Enter income for month {} : ".format(month)))
         incomes.append(income)
-
     print("\nIncome Report\n-------------")
+    report(number_of_months , incomes)
+
+def report(number_of_months , incomes):
     total = 0
     for month in range(1, number_of_months + 1):
         income = incomes[month - 1]
