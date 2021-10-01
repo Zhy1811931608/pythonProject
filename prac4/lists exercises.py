@@ -14,3 +14,10 @@ print('The last number is {}'.format(numbers[4]))
 print('The smallest number is {}'.format(smallest_number))
 print('The largest number is {}'.format(largest_number))
 print('The average of the numbers is {}'.format(average))
+
+usernames = ['jimbo', 'giltson98', 'derekf', 'WhatSup', 'NicolEye', 'swei45', 'BaseInterpreterInterface', 'BaseStdIn', 'Command', 'ExecState', 'InteractiveConsole', 'InterpreterInterface', 'StartServer', 'bob']
+user_name = input('enter name: ')
+if user_name in usernames:
+    print('Access granted')
+else:
+    print('Access denied')
